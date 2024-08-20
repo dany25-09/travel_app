@@ -1,3 +1,58 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* extracción de componentes con nested */
+.card {
+    @apply min-w-48 w-48 h-64 shadow-md rounded-lg scroll-snap-align-center transform transition-all hover:-translate-y-4 hover:shadow-xl;
+    
+    > div:nth-child(1) {
+      @apply w-full h-3/5 rounded-t-lg bg-red-400;
+
+      img{
+        @apply w-full h-full rounded-t-lg; 
+      }
+    }
+    
+    > div:nth-child(2) {
+      @apply w-full h-2/5 flex flex-col justify-center;
+      
+      h3 {
+        @apply px-4 font-bold text-lg;
+      }
+      
+      p {
+        @apply px-4 text-sm;
+      }
+    }
+  }
+
+.trendStays{
+
+  @apply w-10/12 h-96 bg-cover rounded-xl transition-transform duration-300 transform hover:scale-110 cursor-pointer;
+
+  > h3:nth-child(1){
+    @apply p-8 pb-2 text-3xl font-semibold text-white;
+  }
+
+  > p:nth-child(2){
+    @apply text-sm pl-8 text-white mr-24;
+  }
+
+}
+
+.title{
+  @apply ml-7 mb-5 text-primary font-semibold;
+}
+
+.subtitle{
+  @apply text-sm text-primary font-semibold mb-2;
+}
+
+.subtitle__paragraph{
+  @apply text-xs font-medium text-gray-900;
+}
+
+.function:hover{
+    @apply transform transition-transform duration-300 hover:scale-110 cursor-pointer;
+}
