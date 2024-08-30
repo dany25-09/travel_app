@@ -7,7 +7,7 @@
     @apply min-w-48 w-48 h-64 shadow-md rounded-lg scroll-snap-align-center transform transition-all hover:-translate-y-4 hover:shadow-xl;
     
     > div:nth-child(1) {
-      @apply w-full h-3/5 rounded-t-lg bg-red-400;
+      @apply w-full h-3/5 rounded-t-lg;
 
       img{
         @apply w-full h-full rounded-t-lg; 
