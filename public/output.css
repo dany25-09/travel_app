@@ -660,7 +660,7 @@ video {
   background-image: url('/public/img/miami.jpg');
 }
 .bg-sanFrancisco {
-  background-image: url('./public/img/sanFrancisco.jpg');
+  background-image: url('../public/img/sanFrancisco.jpg');
 }
 .bg-cover {
   background-size: cover;
@@ -1207,7 +1207,7 @@ video {
   }
 
   .lg\:bg-sanFranciscoDesktop {
-    background-image: url('/public/img/sanFranciscoDesktop.jpg');
+    background-image: url('../public/img/sanFranciscoDesktop.jpg');
   }
 
   .lg\:bg-bottom {

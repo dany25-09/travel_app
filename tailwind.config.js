@@ -11,8 +11,8 @@ module.exports = {
         'dark': '#2ff2e0',
       },
       backgroundImage:{
-        'sanFrancisco': "url('./public/img/sanFrancisco.jpg')",
-        'sanFranciscoDesktop': "url('/public/img/sanFranciscoDesktop.jpg')",
+        'sanFrancisco': "url('../public/img/sanFrancisco.jpg')",
+        'sanFranciscoDesktop': "url('../public/img/sanFranciscoDesktop.jpg')",
 			  'yosemite': "url('/public/img/yosemite,jpg')",
 			  'LA': "url('/public/img/LA.jpg')",
 			  'seattle': "url('/public/img/seattle.jpg')",
