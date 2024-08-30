@@ -648,16 +648,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .bg-LA {
-  background-image: url('/public/img/LA.jpg');
+  background-image: url('../public/img/LA.jpg');
 }
 .bg-bali {
-  background-image: url('/public/img/bali.jpg');
+  background-image: url('../public/img/bali.jpg');
 }
 .bg-chicago {
-  background-image: url('/public/img/chicago.jpg');
+  background-image: url('../public/img/chicago.jpg');
 }
 .bg-miami {
-  background-image: url('/public/img/miami.jpg');
+  background-image: url('../public/img/miami.jpg');
 }
 .bg-sanFrancisco {
   background-image: url('../public/img/sanFrancisco.jpg');
