@@ -1,16 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./**/*.html'],
+  darkMode: 'class',
   theme: {
     extend: {
       colors:{
         'primary': '#CC2D4A',
         'secondary': '#8FA206',
-        'tertiary': '#61AEC9'
+        'tertiary': '#61AEC9',
+        'dark': '#2ff2e0',
       },
       backgroundImage:{
         'sanFrancisco': "url('/public/img/sanFrancisco.jpg')",
-        'sanFranciscoDesktop': "url(/public/img/sanFranciscoDesktop.jpg')",
+        'sanFranciscoDesktop': "url('/public/img/sanFranciscoDesktop.jpg')",
 			  'yosemite': "url('/public/img/yosemite,jpg')",
 			  'LA': "url('/public/img/LA.jpg')",
 			  'seattle': "url('/public/img/seattle.jpg')",

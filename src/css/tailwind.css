@@ -27,30 +27,63 @@
     }
   }
 
+.card__color__pair{
+  @apply bg-secondary dark:bg-gray-700;
+  > div:nth-child(2) {
+    h3{
+      @apply text-white dark:text-dark;
+    }
+    p{
+      @apply text-white;
+    }
+  }
+}
+
+.card__color__odd{
+  @apply bg-white dark:bg-gray-800;
+  > div:nth-child(2) {
+    h3{
+      @apply text-tertiary dark:text-dark;
+    }
+    p{
+      @apply text-tertiary dark:text-white;
+    }
+  }
+}
+
 .trendStays{
+  @apply w-10/12 h-96 bg-cover bg-center rounded-xl transition-transform duration-300 transform hover:scale-110 cursor-pointer;
+}
 
-  @apply w-10/12 h-96 bg-cover rounded-xl transition-transform duration-300 transform hover:scale-110 cursor-pointer;
+/* utilerías para desktop */
+@layer components {
+  .gridLg{
+    @apply h-[65rem] px-7 grid grid-cols-4 grid-rows-4 gap-8 justify-start items-start space-y-0;
+  }
 
-  > h3:nth-child(1){
+  .trendStaysLg{
+    @apply w-full h-full bg-cover flex flex-col items-end transition-none duration-0 hover:scale-100 transform transition-all hover:-translate-y-4 hover:shadow-2xl;
+  }
+}
+
+.trendStays__title{
     @apply p-8 pb-2 text-3xl font-semibold text-white;
-  }
+}
 
-  > p:nth-child(2){
+.trendStays__info{
     @apply text-sm pl-8 text-white mr-24;
-  }
-
 }
 
 .title{
-  @apply ml-7 mb-5 text-primary font-semibold;
+  @apply ml-7 mb-5 text-primary font-bold dark:text-dark;
 }
 
 .subtitle{
-  @apply text-sm text-primary font-semibold mb-2;
+  @apply text-sm text-primary font-semibold mb-2 dark:text-dark;
 }
 
 .subtitle__paragraph{
-  @apply text-xs font-medium text-gray-900;
+  @apply text-xs font-medium text-gray-900 dark:text-white;
 }
 
 .function:hover{
