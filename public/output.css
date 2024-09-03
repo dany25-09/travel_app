@@ -662,6 +662,9 @@ video {
 .bg-sanFrancisco {
   background-image: url('../public/img/sanFrancisco.jpg');
 }
+.bg-norway {
+  background-image: url('../public/img/norway.jpg');
+}
 .bg-cover {
   background-size: cover;
 }
